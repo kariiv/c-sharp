@@ -1,0 +1,20 @@
+1.
+1) Printida konsooli oma nimi
+2) Kirjutada programm, mis küsib kasutajalt nime, salvestab selle string tüüpi muutujasse ning prindib selle välja kujul "Tere, nimi"
+3) Täiendada eelmises punktis tehtud programmi, lisades vanuse küsimise ning printides selle välja.
+
+2. 
+1) Kirjutada programm, mis küsib kasutajalt kaks int-tüüpi numbrit, salvestab nende väärtuse muutujatesse ning prindib kasutajale summa.
+2) Täiendada eelmises punktis tehtud programmi nii, et ta sooritaks ka liitmise, lahutamise ning jagamise.
+3) Täiendada programmi nii, et int tüüpi muutujate asemel kasutatakse double tüüp (jälgi jagamise tulemust).
+
+3. 
+1) Kirjutada konsoolirakendus, mis küsib kasutajalt ühe numbri ning seejärel kontrollib kas see on vahemikus 1 kuni 10. Kui ei ole, siis väljastab vastava teate.
+2) Täiendada programmi nii, et programmis on:
+-defineeritud string tüüpi muutuja koos väärtusega (nt 'string myString ="algebra";) 
+-programm küsib kasutajalt "arva mitme tähega sõnale ma mõtlen". 
+-programm väljastab kasutajale, kas tähtede arv sõnas oli sama mis eeldefineeritud sõnas. (sõna pikkuse ning kasutaja sisestatud numbri võrdlemine).
+3) Küsida kasutajalt üks kolme numbrilise (int) valikuvariandiga küsimus ning kuvada kasutajale kas ta vastas õigesti või mitte.
+
+
+

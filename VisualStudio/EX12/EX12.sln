@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResizingLine", "EX12\ResizingLine.csproj", "{E40C14A7-66E1-4E5E-991F-9555BF5C4225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView", "DataGridView\DataGridView.csproj", "{F04F73D3-313C-40DD-987F-25CD692484B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingLines", "DrawingLines\DrawingLines.csproj", "{1941837D-85DF-4312-820F-F0105E6EF2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleDrawer", "CircleDrawer\CircleDrawer.csproj", "{A399966C-1AF2-46CE-8F64-F712D2D494A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E40C14A7-66E1-4E5E-991F-9555BF5C4225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40C14A7-66E1-4E5E-991F-9555BF5C4225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40C14A7-66E1-4E5E-991F-9555BF5C4225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40C14A7-66E1-4E5E-991F-9555BF5C4225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04F73D3-313C-40DD-987F-25CD692484B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04F73D3-313C-40DD-987F-25CD692484B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04F73D3-313C-40DD-987F-25CD692484B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04F73D3-313C-40DD-987F-25CD692484B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1941837D-85DF-4312-820F-F0105E6EF2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1941837D-85DF-4312-820F-F0105E6EF2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1941837D-85DF-4312-820F-F0105E6EF2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1941837D-85DF-4312-820F-F0105E6EF2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A399966C-1AF2-46CE-8F64-F712D2D494A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A399966C-1AF2-46CE-8F64-F712D2D494A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A399966C-1AF2-46CE-8F64-F712D2D494A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A399966C-1AF2-46CE-8F64-F712D2D494A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34229E76-4E53-456D-A290-BCD936152EBC}
+	EndGlobalSection
+EndGlobal

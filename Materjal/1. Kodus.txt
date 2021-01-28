@@ -1,0 +1,26 @@
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/hello-world-your-first-program
+
+Ülesanne 1, string, bool, int, conditions (if/else), Console.WriteLine, Console.ReadLine
+
+NB! Kõik lahendused panna ühte visual studio solutionisse!
+
+Kirjutada konsoolirakendus, mis
+1) Täiendab tunnis tehtud kalkulaatorit nii, et kahe arvu summast võetakse ruutjuur
+2) Täienda programmi nii, et kasutaja võiks sisestada ka negatiivseid arve. Ruutjuure puhul kuva teavitus, et ruutjuurt negatiivsest arvust ei saa võtta (if-lause)
+
+Kirjutada konsoolirakendus, mis 
+a) Eeldefineerib kolm erinevate vastusevariantidega küsimust (üks vastus peab olema string, üks int ja üks double tüüpi)
+a) Küsib kasutajalt küsimused ning laseb sisestada vastuse (küsimus-vastus-küsimus-vastus..)
+b) Loeb kokku õiged vastused ning kuvab kasutajale skoori (0-3)
+d) Kui õigeid vastuseid on kolmest kolm, siis kuvatakse kasutajale kiitev teavitus ning rakendus sulgub, kui õigeid vastuseid on vähem kui kolm, siis lohutav teade
+
+
+1. Make additional changes to the calculator we made in the class:
+ - get sqrt of the sum of the 2 numbers
+ - add support for negative numbers. since sqrt cant be taken from negative number then display a notification saying that (if-sentence)
+ 
+2. Ask 3 questions from user (one answer of type string, one of int and one of double. NB! the types are important)
+ - Count correct answers and display the number to the user
+ - If the number of correct answers is 3, then display a notification to the user saying "Well done", else "Try again".
+
+

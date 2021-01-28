@@ -1,0 +1,126 @@
+Find mistakes in main method and correct them (write out how could you fix the problem).
+1.
+static void main(string[] args)
+{
+double a = IncreaseNumber("2"); // tagastus puudub. sulgudes string
+int a = IncreaseNumber(3); // Tagastus puudub.
+}
+
+static void IncreaseNumber(int number) // puudub tagastus
+{
+number = number + 1;
+}
+
+2.
+static void main(string[] args)
+{
+string a = ConjugateValues("2", "3"); //teine parameeter peab olema int.
+ConjugateValues(3, "2"); // Parameetrid vales järjekorras.
+int b = ConjugateValiues(2,3); // Tagastus on string, mitte int. Esimene parameeter peab olema string
+}
+
+static string ConjugateValues(string a, int b)
+{
+return a+b;
+}
+
+
+What is printed out
+3.
+int i = 4;
+for(i=2; i<4;i++)
+{
+Console.WriteLine(i); // "2,3"
+}
+
+4.
+For(int i = 1; i <=2;i++)
+{
+Console.WriteLine(i); // "1,2"
+}
+
+5.
+int i = 0;
+int j = 10;
+while(i<=10 && j <= 10)
+{
+Console.WriteLine(i+j); //"10..20"
+i++;
+}
+
+6. 
+int x = 5;
+int y = x+5;
+Console.WriteLine(y); //  "10" 
+
+7.
+int a = 2;
+if (a>4 || a <5)
+{
+Console.WriteLine("True"); // "True"
+}
+else
+{
+Console.WriteLine("False"); 
+}
+
+8.
+static void main(string[] args)
+{
+int x = 5;
+int y = x +5;
+Console.WriteLine("x"); // "x"
+}
+
+9.
+int a = 2;
+if (a >=0 && a<2)
+{
+Console.WriteLine("True");
+}
+else
+{
+Console.WriteLine("False"); /"False"
+}
+
+10. 
+int i = 7;
+int j = 5;
+if (i != j)
+{
+i +=6;
+j +=5;
+}
+i=j;
+Console.WriteLine(j); // "10"
+
+11.
+static void main(string[] args)
+{
+Human humanA = new Human("Sally");
+Console.WriteLIne(HumanA._name);
+}
+class Human
+{
+public string _name;
+public Human (){
+_name = john;
+}
+{
+public string _name;
+public Human (string name)
+{
+_name = "Darwin";
+}
+
+12.
+List<int> listOfInts = new List<int>() {4,3,2,1};
+
+listOfInts.RemoveAt(1); //"2"
+listOfInts.Add(2);
+Console.WriteLine(listOfString2);
+13.
+    // array // "021"
+
+14.
+ //firstCard secondCar "70(80tglt) 100"
